@@ -1,0 +1,47 @@
+{
+  "dev": {
+    "featureFlags": {
+      "SOD": {
+        "fontEnd": "DEV_SEARCH_SOD_UI",
+        "backEnd": "DEV_SEARCH_SOD_BACKEND"
+      }
+    },
+    "endPoints": {
+      "SOD": {
+        "create": "dev/sod/create",
+        "edit": "dev/sod/edit",
+        "delete": "dev/sod/delete"
+      }
+    }
+  },
+  "test": {
+    "featureFlags": {
+      "SOD": {
+        "fontEnd": "TEST_SEARCH_SOD_UI",
+        "backEnd": "TEST_SEARCH_SOD_BACKEND"
+      }
+    },
+    "endPoints": {
+      "SOD": {
+        "create": "test/sod/create",
+        "edit": "test/sod/edit",
+        "delete": "test/sod/delete"
+      }
+    }
+  },
+  "prod": {
+    "featureFlags": {
+      "SOD": {
+        "fontEnd": "PROD_SEARCH_SOD_UI",
+        "backEnd": "PROD_SEARCH_SOD_BACKEND"
+      }
+    },
+    "endPoints": {
+      "SOD": {
+        "create": "prod/sod/create",
+        "edit": "prod/sod/edit",
+        "delete": "prod/sod/delete"
+      }
+    }
+  }
+}
